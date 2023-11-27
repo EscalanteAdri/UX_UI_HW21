@@ -4,6 +4,7 @@
         <title>Projects</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/myWork.css">
+        <script src="js/environmentVariables.js"></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -80,10 +81,20 @@
 
 
 
-          <section>
+          <section class="center">
+<!-- <script>
+  pullInVariable();
+  console.log("$INSTAGRAM_KEY");
+  console.log("INSTAGRAM_KEY");
+  window.onload = function(){
+    document.getElementById('output').innerHTML = lengthOfName;
+};
+</script> -->
 
                 <h3 class="padding20 center">Photography Instagram:</h3>
-                <p> I got my token invalidated by posting to github so this is not working</p>
+                <div>
+                <p class="cuteParagraph"> I got my token invalidated by posting to github so this is not working</p>
+                </div>
                 <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.js"></script>
                         <div id="instafeed-container"></div>
                 
